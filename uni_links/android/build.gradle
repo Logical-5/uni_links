@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.github.avioli.uni_links" // Add this line
     compileSdkVersion 28
 
     defaultConfig {
